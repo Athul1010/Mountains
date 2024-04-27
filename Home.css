@@ -1,0 +1,296 @@
+.mountain-header {
+    background-image: url('./Assets/Landing.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 100vh;
+}
+
+.types {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.types a {
+    color: white;
+}
+
+.home {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+
+}
+
+.hills-container {
+    position: relative;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+/* -------------------second------------ */
+
+.second-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.second-types {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.second-types a {
+    color: #647492;
+}
+
+
+/* ----------3rd section----------- */
+.history-container {
+    background-image: url('./Assets/peak.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    /* padding-bottom: 28rem; */
+}
+
+.history {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.history-num h1 {
+    color: #657792;
+
+}
+
+.story h3 {
+
+    color: #414f6b;
+    margin-bottom: 0px;
+}
+
+.story p {
+    color: #414f6b;
+    margin-bottom: 0px;
+}
+
+.history-para {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.selection {
+    padding: 30px;
+    background-color: rgba(60, 72, 96, 0.5);
+
+}
+
+.choices {
+    padding: 30px;
+    background-color: rgba(60, 72, 96, 0.5);
+
+}
+
+/* -----slider------- */
+
+.climb-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.climbing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 58% !important;
+    padding: 30px 0px;
+}
+
+.climb-pragraph p {
+    margin-bottom: 0px;
+
+}
+
+.mountains {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #414f6b;
+}
+
+.mountain-set {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.details {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 25px;
+}
+
+.schedules {
+    background-image: url("./Assets/tab_1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 12rem;
+    padding-top: 9rem;
+    cursor: pointer;
+}
+
+.schedules-sec {
+    background-image: url("./Assets/tab_2.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 12rem;
+    padding-top: 9rem;
+    cursor: pointer;
+}
+
+.main-schedules {
+    border: none;
+    padding: 11px 32px;
+    background-color: rgb(199 202 211 / 50%);
+}
+
+.mountain_1,
+.mountain_2 {
+    cursor: pointer;
+    padding: 10px 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    background-color: #657792;
+    color: #414f6b;
+}
+
+.footer img {
+    height: 30px;
+}
+
+.footer p {
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+    .history-section {}
+
+    /* 2nd */
+    .second-logo img {
+        height: 30px;
+    }
+
+    /* 3rd */
+    .history-num h1 {
+        font-size: 50px;
+    }
+
+    .history-section {
+        padding-bottom: 13rem;
+        padding-top: 3rem;
+    }
+
+    .choices {
+        display: block;
+    }
+
+    .selection {
+        display: none;
+    }
+
+    .climbing-container {
+        flex-direction: column;
+    }
+
+    .footer{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .places-shedule{
+        display: none;
+    }
+    .accordian_shedule{
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .accordian_shedule{
+        display: none;
+    }
+    .places-shedule{
+        display: block;
+    }
+    .choices {
+        display: none;
+    }
+
+    .selection {
+        display: block;
+    }
+
+    .history-section {
+        padding-bottom: 13rem;
+        padding-top: 3rem;
+    }
+
+    .history-num h1 {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .history-num h1 {
+        font-size: 80px;
+    }
+
+    .story h3 {
+        font-size: 20px;
+    }
+
+    .story p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .story {
+        padding-top: 18px;
+    }
+
+}
